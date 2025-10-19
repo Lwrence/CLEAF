@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Peace Lily",
+    "scientific_name": "Spathiphyllum",
+    "definition": "Elegant plant with glossy leaves and white, hood-like blooms; air-purifying.",
+    "care_tips": "Keep soil moist; prefers high humidity.",
+    "light": "Low to medium light",
+    "watering_frequency": "Every 5-7 days",
+    "water_amount": "250 ml",
+    "temperature": "18-24°C",
+    "description": "This elegant plant features glossy, dark green leaves and striking white, hood-like blooms that rise on slender stalks. It thrives in low to medium light and prefers consistently moist soil, making it ideal for indoor spaces. Known for its air-purifying qualities, it’s a favorite for beginners.",
+    "image": {
+      "file_name": "peace_lily.png",
+      "path": "plant_images/",
+      "url": "plant_images/peace_lily.png"
+    }
+  },
+  {
+    "name": "Snake Plant",
+    "scientific_name": "Sansevieria trifasciata",
+    "definition": "Upright, sword-like leaves in green or variegated patterns; very hardy.",
+    "care_tips": "Water every 2-3 weeks; very drought-tolerant.",
+    "light": "Low light",
+    "watering_frequency": "Every 2-3 weeks",
+    "water_amount": "100 ml",
+    "temperature": "18-27°C",
+    "description": "The Snake Plant, also known as Sansevieria trifasciata, is renowned for its upright, sword-like leaves that come in various shades of green and striking variegated patterns. This hardy plant is exceptionally drought-tolerant, making it perfect for those who may forget to water regularly. It thrives in low light conditions and adds a modern touch to any indoor space.",
+    "image": {
+      "file_name": "snake_plant.png",
+      "path": "plant_images/",
+      "url": "plant_images/snake_plant.png"
+    }
+  },
+  {
+    "name": "ZZ Plant",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "definition": "Glossy, waxy leaves on upright stems; thrives with neglect.",
+    "care_tips": "Water every 2-4 weeks; well-draining soil.",
+    "light": "Low light",
+    "watering_frequency": "Every 2-4 weeks",
+    "water_amount": "150 ml",
+    "temperature": "18-26°C",
+    "description": "The ZZ plant has glossy, dark green, feather-like leaves that grow in an upright, graceful pattern. It’s highly drought-tolerant, surviving in low light and needing water only occasionally, ideal for forgetful plant owners. Its resilience and low care requirements make it a popular choice for homes and offices.",
+    "image": {
+      "file_name": "zz_plant.png",
+      "path": "plant_images/",
+      "url": "plant_images/zz_plant.png"
+    }
+  },
+  {
+    "name": "Monstera",
+    "scientific_name": "Monstera deliciosa",
+    "definition": "Large, split leaves with holes; trendy tropical climber.",
+    "care_tips": "Water when top soil dries; use moss pole.",
+    "light": "Bright indirect light",
+    "watering_frequency": "Every 1-2 weeks",
+    "water_amount": "300 ml",
+    "temperature": "20-30°C",
+    "description": "Known for its large, heart-shaped leaves with distinctive splits or holes, the monstera adds a tropical flair to interiors. It prefers bright, indirect light and moderate watering to keep its soil slightly moist. This plant’s bold foliage makes it a statement piece in any space.",
+    "image": {
+      "file_name": "monstera.png",
+      "path": "plant_images/",
+      "url": "plant_images/monstera.png"
+    }
+  },
+  {
+    "name": "Philodendron",
+    "scientific_name": "Philodendron spp.",
+    "definition": "Heart-shaped or lobed leaves; versatile trailing or climbing plant.",
+    "care_tips": "Water weekly; forgiving of irregular care.",
+    "light": "Indirect light",
+    "watering_frequency": "Every 7-10 days",
+    "water_amount": "250 ml",
+    "temperature": "18-25°C",
+    "description": "This versatile plant features heart-shaped or elongated, glossy green leaves that cascade or climb depending on the variety. It adapts well to low or bright indirect light and prefers well-draining soil with moderate watering. Philodendrons are easy to care for, making them great for novice plant enthusiasts.",
+    "image": {
+      "file_name": "philodendron.png",
+      "path": "plant_images/",
+      "url": "plant_images/philodendron.png"
+    }
+  },
+  {
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe vera",
+    "definition": "Succulent with thick, spiky leaves containing soothing gel.",
+    "care_tips": "Water deeply but infrequently; sandy soil.",
+    "light": "Bright indirect light",
+    "watering_frequency": "Every 2-3 weeks",
+    "water_amount": "150 ml",
+    "temperature": "15-27°C",
+    "description": "This succulent boasts thick, fleshy, green leaves that store water, giving it a plump, sculptural look. It thrives in bright, indirect light and requires infrequent watering, making it low-maintenance. The gel inside its leaves is widely used for soothing skin burns and irritations.",
+    "image": {
+      "file_name": "aloe_vera.png",
+      "path": "plant_images/",
+      "url": "plant_images/aloe_vera.png"
+    }
+  },
+  {
+    "name": "Jade Plant",
+    "scientific_name": "Crassula ovata",
+    "definition": "Small, tree-like succulent with round, fleshy leaves; symbolizes luck.",
+    "care_tips": "Water every 1-2 weeks; well-draining pots.",
+    "light": "Full to partial sun",
+    "watering_frequency": "Every 1-2 weeks",
+    "water_amount": "200 ml",
+    "temperature": "18-24°C",
+    "description": "With its thick, oval, jade-green leaves and sturdy, woody stems, this succulent resembles a miniature tree. It loves bright light and requires infrequent watering, allowing the soil to dry out completely between sessions. Often considered a symbol of prosperity, it’s a charming addition to sunny spots."
+  },
+  {
+    "name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "definition": "Large, glossy dark green leaves; bold, upright growth.",
+    "care_tips": "Water when top inch dries; wipe leaves.",
+    "light": "Bright indirect light",
+    "watering_frequency": "Every 1-2 weeks",
+    "water_amount": "250 ml",
+    "temperature": "15-24°C",
+    "description": "This plant showcases large, glossy, dark green leaves that give it a bold, dramatic appearance. It thrives in bright, indirect light and needs moderate watering to maintain healthy growth. The rubber plant’s striking foliage makes it a standout choice for modern indoor decor."
+  },
+  {
+    "name": "Bird's Nest Fern",
+    "scientific_name": "Asplenium nidus",
+    "definition": "Lush, wavy fronds in a rosette; loves humidity.",
+    "care_tips": "Keep soil moist; mist for humidity.",
+    "light": "Indirect light",
+    "watering_frequency": "Every 5-7 days",
+    "water_amount": "300 ml",
+    "temperature": "18-24°C"
+  },
+  {
+    "name": "Hoya",
+    "scientific_name": "Hoya spp.",
+    "definition": "Waxy leaves and star-shaped, fragrant flowers; trailing or climbing.",
+    "care_tips": "Water when dry; well-draining mix.",
+    "light": "Bright indirect light",
+    "watering_frequency": "Every 1-2 weeks",
+    "water_amount": "150 ml",
+    "temperature": "18-24°C"
+  },
+  {
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "definition": "Feathery, arching fronds; adds tropical elegance indoors.",
+    "care_tips": "Water weekly; tolerates indoor dryness.",
+    "light": "Indirect light",
+    "watering_frequency": "Every 7-10 days",
+    "water_amount": "250 ml",
+    "temperature": "18-24°C"
+  }
+]
