@@ -3,7 +3,8 @@ const path = require("path");
 const chokidar = require("chokidar");
 
 const source = path.join(__dirname, "indoorplants.json");
-const dest = path.join(__dirname, "assets/indoorplants.json");
+// assets folder outside cleaf_backend
+const dest = path.join(__dirname, "assets", "indoorplants.json");
 
 // Function to copy JSON file to Flutter's assets folder
 function copyToAssets() {

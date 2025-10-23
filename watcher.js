@@ -1,44 +1,28 @@
 const fs = require("fs");
+const path = require("path");
 const chokidar = require("chokidar");
-const { MongoClient } = require("mongodb");
 
-const uri = "mongodb+srv://qlmalaga:malaga10@cluster0.xj4okof.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const client = new MongoClient(uri);
+// Source JSON (inside cleaf_backend/data)
+const source = path.join(__dirname, "data", "indoorplants.json");
 
-const dbName = "cleaf";
-const collectionName = "indoorplants";
-const jsonFile = "./indoorplants.json"; // same folder
+// Destination (Flutter's assets folder outside cleaf_backend)
+const dest = path.join(__dirname, "..", "assets", "indoorplants.json");
 
-async function updateMongoFromJSON() {
-  try {
-    console.log("🔄 Detected change in JSON file...");
-
-    // read JSON
-    const data = JSON.parse(fs.readFileSync(jsonFile, "utf8"));
-
-    // ensure client connected only once
-    if (!client.topology?.isConnected()) {
-      await client.connect();
-      console.log("🌿 Connected to MongoDB...");
+// Function to copy JSON file to Flutter's assets folder
+function copyToAssets() {
+  fs.copyFile(source, dest, (err) => {
+    if (err) {
+      console.error("❌ Error syncing JSON to assets:", err);
+    } else {
+      console.log("✅ JSON synced to Flutter assets!");
     }
-
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
-
-    // clear & insert
-    await collection.deleteMany({});
-    const result = await collection.insertMany(data);
-
-    console.log(`✅ MongoDB updated! Inserted ${result.insertedCount} documents.`);
-  } catch (err) {
-    console.error("❌ Error updating MongoDB:", err);
-  }
+  });
 }
 
-// Watch file continuously
-chokidar.watch(jsonFile).on("change", async () => {
-  console.log("📁 File changed:", jsonFile);
-  await updateMongoFromJSON();
+// Watch for changes in the JSON file
+chokidar.watch(source).on("change", () => {
+  console.log("📁 Detected JSON change, syncing to assets...");
+  copyToAssets();
 });
 
-console.log("👀 Watching for JSON changes...");
+console.log("👀 Watching for JSON changes to sync with Flutter assets...");

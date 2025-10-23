@@ -104,7 +104,12 @@
     "watering_frequency": "Every 1-2 weeks",
     "water_amount": "200 ml",
     "temperature": "18-24°C",
-    "description": "With its thick, oval, jade-green leaves and sturdy, woody stems, this succulent resembles a miniature tree. It loves bright light and requires infrequent watering, allowing the soil to dry out completely between sessions. Often considered a symbol of prosperity, it’s a charming addition to sunny spots."
+    "description": "with its thick, oval, jade-green leaves and sturdy, woody stems, this succulent resembles a miniature tree. It loves bright light and requires infrequent watering, allowing the soil to dry out completely between sessions. Often considered a symbol of prosperity, it’s a charming addition to sunny spots.",
+    "image": {
+      "file_name": "jade_plant.png",
+      "path": "plant_images/",
+      "url": "plant_images/jade_plant.png"
+    }
   },
   {
     "name": "Rubber Plant",
@@ -133,7 +138,7 @@
     "definition": "Waxy leaves and star-shaped, fragrant flowers; trailing or climbing.",
     "care_tips": "Water when dry; well-draining mix.",
     "light": "Bright indirect light",
-    "watering_frequency": "Every 1-2 weeks",
+    "watering_frequency": "Every 1-3 weeks",
     "water_amount": "150 ml",
     "temperature": "18-24°C"
   },
